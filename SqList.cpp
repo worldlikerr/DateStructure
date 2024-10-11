@@ -16,10 +16,13 @@ void InitList(SqList& L) {
 /// </summary>
 /// <param name="L">线性表变量名</param>
 void DestroyList(SqList& L) {
-	delete[] L.elem;
-	L.elem = nullptr;
+	if (L.elem != nullptr) {
+		delete[] L.elem;
+		L.elem = nullptr;
+	}
 	L.length = 0;
 }
+
 
 /// <summary>
 /// 查找
@@ -29,8 +32,10 @@ void DestroyList(SqList& L) {
 /// <param name="e">查找成功后被赋值的变量</param>
 /// <returns></returns>
 bool GetElem(SqList	L, int i, ElemType& e) {
-	if (i >= L.length || i < 0)//索引从0开始
+	if (i >= L.length || i < 0) {
 		return false;
+		cout << "所查找元素索引不合法" << endl;
+	}//索引从0开始
 	e = L.elem[i];
 	return true;
 }
@@ -51,6 +56,7 @@ bool ListInsert(SqList& L, int i, ElemType e) {
 		L.length++;
 		return true;
 	}
+	cout << "所插入元素索引不合法" << endl;
 	return false;
 }
 
@@ -70,6 +76,7 @@ bool ListDelete(SqList& L, int i, ElemType& e) {
 		L.length--;
 		return true;
 	}
+	cout << "所删除元素索引不合法" << endl;
 	return false;
 }
 
@@ -82,6 +89,7 @@ void Print(SqList L) {
 		for (int i = 0; i < L.length; i++) {
 			cout << L.elem[i] << " ";
 		}
+		cout << endl;
 	}
 	else
 	{

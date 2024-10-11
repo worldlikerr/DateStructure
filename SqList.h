@@ -23,7 +23,7 @@ bool GetElem(SqList	L, int i, ElemType& e);
 bool ListInsert(SqList& L, int i, ElemType e);
 //删除
 bool ListDelete(SqList& L, int i, ElemType& e);
-//输出
+//打印
 void Print(SqList L);
 
 
