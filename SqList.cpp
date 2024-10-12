@@ -96,3 +96,19 @@ void Print(SqList L) {
 		cout << "表为空" << endl;
 	}
 }
+
+/* 顺序表L有10个整数。设计一个算法，以第一个元素为分界线（基准），将所有小于等于它的元素移到该元素的前面，将所有大于它的元素移到该元素的后面。*/
+void QuickSort_L(SqList &L) {
+	if (L.elem != nullptr)//表为非空
+	{
+		ElemType FirstELem = L.elem[0];
+		for (int i = 1; i < L.length; i++)
+		{
+			if (L.elem[i] <FirstELem) {
+				ListInsert(L, 0, L.elem[i]);
+				ElemType e = 0;
+				ListDelete(L, i + 1, e);
+			}
+		}
+	}
+}

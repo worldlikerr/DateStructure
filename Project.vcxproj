@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SqList.cpp" />
+    <ClCompile Include="test_QuickSort_L.cpp" />
     <ClCompile Include="test_SqLIst.cpp" />
   </ItemGroup>
   <ItemGroup>
