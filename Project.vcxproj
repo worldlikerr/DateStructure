@@ -133,11 +133,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqList.cpp" />
-    <ClCompile Include="test_QuickSort_L.cpp" />
-    <ClCompile Include="test_SqLIst.cpp" />
+    <ClCompile Include="test_LInkList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkList.h" />
     <ClInclude Include="SqList.h" />
   </ItemGroup>
   <ItemGroup>
