@@ -135,11 +135,11 @@
   <ItemGroup>
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqList.cpp" />
-    <ClCompile Include="test_LinkList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="SqList.h" />
+    <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
