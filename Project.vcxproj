@@ -135,6 +135,8 @@
   <ItemGroup>
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqList.cpp" />
+    <ClCompile Include="SqStack.cpp" />
+    <ClCompile Include="test_SqStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />

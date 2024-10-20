@@ -21,6 +21,12 @@
     <ClCompile Include="LinkList.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SqStack.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_SqStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList.h">
