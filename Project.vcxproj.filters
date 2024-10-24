@@ -24,7 +24,10 @@
     <ClCompile Include="SqStack.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_SqStack.cpp">
+    <ClCompile Include="SqQueue.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_SqQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SqStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SqQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

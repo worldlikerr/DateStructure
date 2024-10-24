@@ -135,12 +135,14 @@
   <ItemGroup>
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqList.cpp" />
+    <ClCompile Include="SqQueue.cpp" />
     <ClCompile Include="SqStack.cpp" />
-    <ClCompile Include="test_SqStack.cpp" />
+    <ClCompile Include="test_SqQueue.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="SqList.h" />
+    <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <ItemGroup>
