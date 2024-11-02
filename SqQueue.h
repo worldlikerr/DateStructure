@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿//循环队列
+#pragma once
 
 #define OK 1
 #define ERROR 0

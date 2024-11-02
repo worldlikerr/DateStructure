@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿//单链表
+#pragma once
 
 
 #define MAXSIZE 100

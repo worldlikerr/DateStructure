@@ -27,7 +27,7 @@
     <ClCompile Include="SqQueue.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_SqQueue.cpp">
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
