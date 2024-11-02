@@ -1,11 +1,12 @@
 ﻿//单链表
+//该定义存在很大问题，须重构
 #pragma once
 
 
 #define MAXSIZE 100
 #define OK 1
 #define ERROR 0
-typedef int ELemType;
+typedef char ELemType;
 typedef int Status;
 
 
@@ -54,7 +55,7 @@ Status DestroyList(LinkList& L);
 /// </summary>
 /// <param name="L"></param>
 /// <returns>成功返回OK，失败返回ERROR</returns>
-Status ClearList(LinkList& L);\
+Status ClearList(LinkList& L);
 
 /// <summary>
 /// 创建
@@ -86,7 +87,7 @@ Status ListTraverse(LinkList L, Status(*visit)(ELemType));
 /// 插入
 /// </summary>
 /// <param name="L">表名</param>
-/// <param name="i">所插入的位置索引</param>
+/// <param name="i">所插入的位置索引,起始元素位置为1</param>
 /// <param name="e">所插入的元素值</param>
 /// <returns>成功返回OK，失败返回ERROR</returns>
 Status ListInsert_L(LinkList& L, int i, ELemType e);
