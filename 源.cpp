@@ -6,9 +6,8 @@ Status PrintElement(ELemType elem) {
 	cout << elem << " ";
 	return OK;
 }
-void print() {
-
-}
+//This_is_a_[Beiju]_text
+//BeijuThis_is_a__text
 int main() {
 	string s;
 	LinkList L;

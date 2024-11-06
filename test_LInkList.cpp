@@ -11,21 +11,13 @@ Status Print(ELemType data) {
 int main() {
 	LinkList L;
 	InitList(L);
-	CreateList(L, 5);
-
-//	cout << L.len << endl;
-//	ListTraverse(L, Print);
-
-	//ListInsert_L(L, 5, 17);
-	//ListInsert_L(L, 3, 17);
-	//ListTraverse(L, Print);
-
-	ELemType e = 0;
-	ListDelete_L(L, 5, e);
-
-	ListTraverse(L, Print);
-	ListDelete_L(L, 2, e);
 	
+	ListInsert_L(L, 1, 1);
 
+
+	ListInsert_L(L, 2, 2);
+	ListInsert_L(L, 3, 3);
+	ListInsert_L(L, 4, 4);
 	ListTraverse(L, Print);
 }
+
