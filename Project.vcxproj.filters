@@ -27,7 +27,10 @@
     <ClCompile Include="SqQueue.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="BiTree.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_BiTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SqQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BiTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -133,13 +133,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BiTree.cpp" />
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqList.cpp" />
     <ClCompile Include="SqQueue.cpp" />
     <ClCompile Include="SqStack.cpp" />
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="test_BiTree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BiTree.h" />
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="SqList.h" />
     <ClInclude Include="SqQueue.h" />
